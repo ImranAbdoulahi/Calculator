@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Imran's Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="header">Let's Calculate this Together!</h1>
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <div class="buttons">
+                <button onclick="pressClear()">C</button>
+                <button onclick="pressBackspace()">⌫</button>
+                <button onclick="pressDivide()">÷</button>
+                <button onclick="pressMultiply()">x</button>
+
+                <button onclick="pressNumber('7')">7</button>
+                <button onclick="pressNumber('8')">8</button>
+                <button onclick="pressNumber('9')">9</button>
+                <button onclick="pressSubtract()">-</button>
+
+                <button onclick="pressNumber('4')">4</button>
+                <button onclick="pressNumber('5')">5</button>
+                <button onclick="pressNumber('6')">6</button>
+                <button onclick="pressAdd()">+</button>
+
+                <button onclick="pressNumber('1')">1</button>
+                <button onclick="pressNumber('2')">2</button>
+                <button onclick="pressNumber('3')">3</button>
+                <button onclick="pressEqual()">=</button>
+
+                <button onclick="pressNumber('0')">0</button>
+                <button onclick="pressDecimal()">.</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
